@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Primeno
 {
 	void Prime_utn(int n)
@@ -24,7 +25,8 @@ class Primeno
 	
 	public static void main(String args[])
 	{
-		int n = 30;
+		Scanner O = new Scanner(Syatem.in);
+		int n = O.nextInt();
 		System.out.print("Following are the prime numbers ");
 		System.out.println("smaller than or equal to " + n);
 		Primeno g = new Primeno();
